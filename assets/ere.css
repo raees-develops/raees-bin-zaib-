@@ -1,0 +1,170 @@
+@media only screen and (max-width: 480px) { 
+   .container-of-achivements{
+    width: 100%;
+    height: 600px;
+    border: 1px solid green;
+
+   }
+   .main-container-of-achivements{
+    width: 100% ;
+    height: 400px;
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: space-evenly;
+   }
+   .box-animation{
+    width: 160px ;
+    height: 188px;
+    border: 1px solid firebrick;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+   .card-container4{
+    display: grid;
+    justify-content: space-evenly;
+    row-gap: 9.5rem; 
+    /* add gap row wise  */
+     
+  }
+   .card-article4{
+    position: relative;
+      overflow: hidden;
+
+   }
+   .card-images4{
+     width: 140px;
+     height: 120px;
+     border-radius: 10px;
+     border: 3px solid blue;
+
+
+    }
+    .card-data4{
+     width: 74px;
+     border-radius: 10px;
+     border: 3px solid blue;
+     background-color: rgba(119, 205, 255, 0.5);
+     padding: 0.5rem 2rem;
+     box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
+     position: absolute;
+     bottom: -12rem;
+     left: 0;
+     right: 0;
+     margin-inline: auto;
+     opacity: 0;
+     transition: opacity1 1s 1s;
+
+
+    }
+    .card-discription4{
+     display: block;
+     font-size: 16px;
+     margin-bottom: 0.75rem;
+    }
+    .card-title4{
+    position: relative;
+    top: -66;
+    }
+    .card-button4{
+     text-decoration: none;
+     color: red;
+     
+     }
+     .card-button4:hover{
+         text-decoration: underline;
+         color: yellow;
+         
+         }
+         .card-article4:hover .card-data4{
+           animation: show-data1 1s forwards;
+           opacity: 1;
+           transition: opacity1 .3s;
+           
+           }
+           .card-article4:hover{
+            animation: remove-overflow2 2s forwards;
+             }
+             @keyframes show-data1 {
+               50%{
+                 transform: translateY(-6rem);
+               }
+               100%{
+                 transform: translateY(-4rem);
+               }
+             }
+
+             @keyframes remove-overflow2  {
+               to{
+                 overflow: initial;
+               }
+             
+             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            .container-66{
+              border: 1px solid blue;
+              display: grid;
+              place-items: center;
+              /* margin-inline: 1.5rem;
+              padding-block: 1rem; */
+
+
+            } 
+
+            .card-container6{
+              display: grid;
+              row-gap: 5rem;
+
+            }  
+            .card-article6{
+              position: relative;
+              /* overflow: hidden; */
+
+            } 
+            .card-images6{
+              width: 140px;
+              height: 120px;
+              border: 1px solid green;
+              border-radius: 10px;
+
+
+            }
+            .card-data6{
+              width: 74px;
+              border: 1px solid chartreuse;
+
+            }
+            .card-title4{
+
+            }
+
+
+}
